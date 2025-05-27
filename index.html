@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Eizan</title>
+  <meta name="description" content="Portfolio de Eizan, desarrollador Full Stack en formación. Proyectos, habilidades y contacto.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/portfolio.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Fondo personalizado -->
+  <div class="background" aria-hidden="true"></div>
+
+  <!-- Header fijo con navegación -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Eizan MB</h1>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero o sección de bienvenida -->
+    <section class="hero" aria-labelledby="titulo-hero">
+      <div class="hero-content">
+        <h2 id="titulo-hero">Full Stack Developer en formación</h2>
+        <p>Construyendo experiencias web con pasión, dedicación y una visión clara.</p>
+        <a href="#proyectos" class="btn">Ver proyectos</a>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section" aria-labelledby="titulo-sobre-mi">
+      <h2 id="titulo-sobre-mi">Sobre mí</h2>
+      <p>Hola, soy Eizan. Técnico informático y actualmente formándome como desarrollador Full Stack con The Odin Project y otros estudios complementarios. Me apasiona la tecnología, el diseño limpio, el código bien hecho y el café, de hecho lo verás nombrado en casi todos mis proyectos.</p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section" aria-labelledby="titulo-proyectos">
+      <h2 id="titulo-proyectos">Proyectos</h2>
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <h3>Odin Recipes</h3>
+          <p>Landing page y recetario web inspirado en los dioses nórdicos, realizada como parte de mi entrenamiento en The Odin Project. HTML + CSS.</p>
+          <a href="https://eizan-matarin.github.io/landing-page/" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+        </div>
+        <div class="proyecto">
+          <h3>Calculadora de Salario Neto</h3>
+          <p>Herramienta en JS para calcular ingresos netos según IRPF y cotizaciones en España. (No son datos reales)</p>
+          <a href="https://eizan-matarin.github.io/Net-Salary-Calculator/" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section" aria-labelledby="titulo-habilidades">
+      <h2 id="titulo-habilidades">Habilidades</h2>
+      <ul class="habilidades-lista">
+        <li>HTML5, CSS3, Flexbox, Grid</li>
+        <li>JavaScript moderno (ES6+)</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Design</li>
+        <li>Terminal y herramientas de desarrollo</li>
+        <li>Actualmente aprendiendo: Node.js, React</li>
+        <li>Inglés Técnico B1</li>
+        <li>Curso de Trello realizado</li>
+        <li>Resolutivo y perseverante</li>
+      </ul>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section" aria-labelledby="titulo-contacto">
+      <h2 id="titulo-contacto">Contacto</h2>
+      <p>¿Te interesa colaborar conmigo o quieres saber más? ¡Hablemos!</p>
+      <form action="https://formspree.io/f/mdkgqapp" method="POST" aria-label="Formulario de contacto">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu email" required>
+        <textarea name="mensaje" rows="5" placeholder="Tu mensaje..." required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 Eizan MB. Portfolio creado con mucha cafeína.</small>
+  </footer>
+
+  <script src="js/portfolio.js"></script>
+</body>
+</html>
