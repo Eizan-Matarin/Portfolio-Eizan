@@ -32,6 +32,10 @@ Portfolio-Eizan/
 - Sección de proyectos destacados
 - Formulario de contacto funcional
 - Totalmente responsive y accesible
+- 
+## Vista Previa
+
+https://eizan-matarin.github.io/Portfolio-Eizan/
 
 ## 🛠️ Cómo usar
 
